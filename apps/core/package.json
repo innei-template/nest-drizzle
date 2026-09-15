@@ -2,7 +2,7 @@
   "name": "App (Core)",
   "version": "0.0.1",
   "private": true,
-  "packageManager": "pnpm@9.14.4",
+  "packageManager": "pnpm@9.15.9",
   "description": "",
   "license": "MIT",
   "author": "Innei <https://innei.in>",
@@ -18,7 +18,7 @@
     "prod:debug": "cross-env NODE_ENV=production nest start --debug --watch"
   },
   "dependencies": {
-    "@auth/drizzle-adapter": "1.7.4",
+    "@auth/drizzle-adapter": "1.11.3",
     "@fastify/static": "7.0.4",
     "@nestjs/cache-manager": "2.3.0",
     "@nestjs/common": "10.4.13",
@@ -31,13 +31,13 @@
     "@nestjs/platform-socket.io": "10.4.13",
     "@nestjs/schedule": "4.1.1",
     "@nestjs/swagger": "8.1.0",
-    "@nestjs/throttler": "6.2.1",
+    "@nestjs/throttler": "6.5.0",
     "@nestjs/websockets": "10.4.13",
     "@packages/compiled": "workspace:*",
     "@packages/drizzle": "workspace:*",
     "@packages/utils": "workspace:*",
-    "@scalar/fastify-api-reference": "1.25.76",
-    "@scalar/nestjs-api-reference": "0.3.172",
+    "@scalar/fastify-api-reference": "1.68.0",
+    "@scalar/nestjs-api-reference": "0.5.14",
     "@socket.io/redis-adapter": "8.3.0",
     "@socket.io/redis-emitter": "5.1.0",
     "@wahyubucil/nestjs-zod-openapi": "0.1.2",
@@ -48,20 +48,20 @@
     "cls-hooked": "4.2.2",
     "commander": "12.1.0",
     "consola": "^3.2.3",
-    "cron": "^3.2.1",
+    "cron": "^3.5.0",
     "cross-env": "7.0.3",
     "dayjs": "1.11.13",
-    "dotenv": "16.4.7",
+    "dotenv": "16.6.1",
     "dotenv-expand": "12.0.1",
-    "drizzle-zod": "0.5.1",
+    "drizzle-zod": "0.8.3",
     "lodash": "4.17.21",
     "nestjs-pretty-logger": "0.3.1",
     "redis": "4.7.0",
     "reflect-metadata": "0.2.2",
     "rxjs": "7.8.1",
     "slugify": "1.6.6",
-    "snakecase-keys": "8.0.1",
-    "zod": "3.23.8"
+    "snakecase-keys": "8.1.0",
+    "zod": "3.25.76"
   },
   "devDependencies": {
     "@nestjs/cli": "10.4.8",
@@ -71,7 +71,7 @@
     "@types/supertest": "6.0.2",
     "@types/ua-parser-js": "0.7.39",
     "fastify": "^4.29.0",
-    "ioredis": "^5.4.1"
+    "ioredis": "^5.11.1"
   },
   "bump": {
     "before": [
